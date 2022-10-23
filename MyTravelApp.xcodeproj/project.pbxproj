@@ -14,6 +14,9 @@
 		442BC0D029047BD2009ECF16 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BC0CF29047BD2009ECF16 /* CreateAccount.swift */; };
 		442BC0D329047FD8009ECF16 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BC0D229047FD8009ECF16 /* Button.swift */; };
 		442BC0D529048661009ECF16 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442BC0D429048661009ECF16 /* Colors.xcassets */; };
+		442BC0D7290559D1009ECF16 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BC0D6290559D1009ECF16 /* SignInView.swift */; };
+		442BC0D929056117009ECF16 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BC0D829056117009ECF16 /* HomeView.swift */; };
+		44ECBE6B2905C0C000FADA02 /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ECBE6A2905C0C000FADA02 /* DestinationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		442BC0CF29047BD2009ECF16 /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
 		442BC0D229047FD8009ECF16 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		442BC0D429048661009ECF16 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		442BC0D6290559D1009ECF16 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		442BC0D829056117009ECF16 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		44ECBE6A2905C0C000FADA02 /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,9 @@
 			children = (
 				442BC0C129047706009ECF16 /* ContentView.swift */,
 				442BC0CF29047BD2009ECF16 /* CreateAccount.swift */,
+				442BC0D6290559D1009ECF16 /* SignInView.swift */,
+				442BC0D829056117009ECF16 /* HomeView.swift */,
+				44ECBE6A2905C0C000FADA02 /* DestinationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,9 +181,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				442BC0C229047706009ECF16 /* ContentView.swift in Sources */,
+				44ECBE6B2905C0C000FADA02 /* DestinationView.swift in Sources */,
 				442BC0D029047BD2009ECF16 /* CreateAccount.swift in Sources */,
 				442BC0D329047FD8009ECF16 /* Button.swift in Sources */,
+				442BC0D929056117009ECF16 /* HomeView.swift in Sources */,
 				442BC0C029047706009ECF16 /* MyTravelAppApp.swift in Sources */,
+				442BC0D7290559D1009ECF16 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,13 +317,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyTravelApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZVDNGXRS5J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,13 +348,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyTravelApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZVDNGXRS5J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

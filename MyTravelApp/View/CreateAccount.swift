@@ -16,16 +16,20 @@ struct CreateAccount: View {
     @AppStorage("EMAIL_KEY") var saveEmail = ""
     
     var body: some View {
-       // ZStack {
-            //Color("White")
-            //    .edgesIgnoringSafeArea(.all)
         VStack{
             VStack {
                 VStack (alignment: .leading) {
                     Text("Create Account")
                         .foregroundColor(.black)
-                    Text("Enter your email, phone number and password for register. Already have account?")
-                        .foregroundColor(.black)
+                        .font(.largeTitle)
+                    Text("Enter your email, phone number and password for register.")
+                        .multilineTextAlignment(.leading)
+                        .foregroundColor(.gray)
+                    NavigationLink(destination: SignInView())  {
+                        Text("Already have account?")
+                            .foregroundColor(.blue)
+                    }.padding(.top, 20)
+
                     
                 }.padding()
                 VStack {
@@ -40,7 +44,7 @@ struct CreateAccount: View {
                     TextField(
                         "Mobil",
                         text: $mobil
-                    ).background(Color.red)
+                    )
                     TextField(
                         "Password",
                         text: $password
@@ -52,7 +56,7 @@ struct CreateAccount: View {
                 }
                 .textFieldStyle(.roundedBorder)
                 .padding()
-                NavigationLink(destination: EmptyView()) {
+                NavigationLink(destination: HomeView()) {
                     Text("Register")
                         .padding()
                         .font(.title)

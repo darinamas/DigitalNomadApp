@@ -20,6 +20,7 @@ struct ContentView: View {
                     VStack (alignment: .leading) {
                         Text("Enjoy your holiday with Visit")
                             .padding()
+                            .font(.title2)
                         Text("Keep you travell very comfortable, easy and explorer the buton.")
                             .padding()
                             .foregroundColor(.gray)
