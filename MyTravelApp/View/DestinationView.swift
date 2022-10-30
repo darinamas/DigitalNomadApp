@@ -21,7 +21,7 @@ struct DestinationView: View {
                     }.padding()
                 }.frame(height: 200)
             }
-            PhotoPickerView()
+           // PhotoPickerView()
             Spacer()
         }
     }
