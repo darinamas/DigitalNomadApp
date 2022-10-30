@@ -28,6 +28,10 @@ final class MyTravelAppTests: XCTestCase {
     func testExample3() throws {
         XCTAssertEqual(3+2, 5)
     }
+    
+    func testExample4() throws {
+        XCTAssertEqual(3+2, 5)
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
